@@ -1,0 +1,28 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "graphQL_test",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nohsangwoo/graphQL_test.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "noh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nohsangwoo/graphQL_test/issues"
+  },
+  "homepage": "https://github.com/nohsangwoo/graphQL_test#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "graphql-yoga": "^1.18.3"
+  }
+}
